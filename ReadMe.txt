@@ -1,4 +1,4 @@
-Visit https://repl.it/@freeCodeCamp/fcc-time-calculator#README.md and README.md for more details
+Visit https://repl.it/@The0z/fcc-time-calculator#README.md and README.md for more details
 
 Assignment
 Write a function named add_time that takes in two required parameters and one optional parameter:
