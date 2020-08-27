@@ -47,7 +47,7 @@ def days_later(days, starting_day):
                   4: "Friday", 5: "Saturday", 6: "Sunday"}
 
     if starting_day != "off":
-        new_day_int = days % 7 + int(name_of_day.get(starting_day))
+        new_day_int = (days + int(name_of_day.get(starting_day))) % 7
         new_day_name = ", " + int_of_day.get(new_day_int)
     else:
         new_day_name = ""  # empty string is inserted if starting day not given
